@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css or in the same Navbar.css */
+.App {
+  text-align: center;
+}
+
+#home, #about, #services, #contact {
+  padding: 2rem 0;
+}
