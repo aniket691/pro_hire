@@ -45,14 +45,14 @@ function LoginForm() {
                                 </div>
                             </div>
                             <div className="col text-right">
-                                <a href="#" className="text-primary">Forgot Password</a>
+                                <a href="www.google.com" className="text-primary">Forgot Password</a>
                             </div>
                         </div>
                         <button type="submit" className="btn btn-primary btn-block">Login</button>
                     </form>
                     <div className="text-center mt-4">
                         <span className="text-muted">Don't have an Account? </span>
-                        <a href="#" className="text-primary">Sign up</a>
+                        <a href="www.google.com" className="text-primary">Sign up</a>
                     </div>
                 </div>
             </div>
