@@ -1,0 +1,34 @@
+/* Home.css */
+.banner {
+  height: 500px;
+  background: url('../../../public/home/background-image.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.search-section {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.search-container {
+  width: 100%;
+}
+
+.search-container .form-control {
+  flex: 1;
+}
+
+.search-container .btn-white {
+  background-color: white;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.search-container .btn-white:hover {
+  background-color: #f8f9fa;
+}
+
+.search-container .dropdown-menu {
+  width: 100%;
+}

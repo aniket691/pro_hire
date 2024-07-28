@@ -4,7 +4,65 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #fff; /* White background */
+  background-color: #fff; /* White background *//* src/Navbar.css */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff; /* White background */
+    color: #333;
+    flex-wrap: wrap; /* Allows wrapping to multiple lines if necessary */
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 2rem; /* Adjusted spacing */
+    background-image: url('../../../public/home/gem.png'); /* Path to your logo image */
+    background-size: contain; /* Adjust the size to contain the image */
+    background-repeat: no-repeat; /* No repeat */
+    padding-left: 40px; /* Adjust based on logo size for spacing */
+    height: 30px; /* Adjust based on logo size */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to multiple lines if necessary */
+    gap: 1rem;
+    justify-content: center; /* Center the links */
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  .navbar-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  
   color: #333;
   flex-wrap: wrap; /* Allows wrapping to multiple lines if necessary */
 }
